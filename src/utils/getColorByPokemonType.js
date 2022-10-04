@@ -1,0 +1,7 @@
+import { POKEMON_TYPE_COLORS } from './constants'
+
+// FUNCION QUE NOS DEVULEVE LOS COLORES ESTABLECIDOS EN LA CONSTANTE
+
+const getColorByPokemonType = (type) => POKEMON_TYPE_COLORS[type.toLowerCase()]
+
+export default getColorByPokemonType
